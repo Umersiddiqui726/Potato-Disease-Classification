@@ -95,7 +95,11 @@ Training and validation curves are saved and can be visualized using TensorBoard
 .
 ├── data/                   # Dataset directory
 ├── models/                 # Model definitions (CNN, ViT)
+   ├── cnn_model.py
+   ├── plant_disease_model.py  
 ├── utils/                  # Data utilities and organization script
+   ├── data_utils.py
+   ├── organize_dataset.py  
 ├── checkpoints/            # Saved model weights
 ├── train.py                # Training script
 ├── predict.py              # Prediction script
