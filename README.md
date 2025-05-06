@@ -82,7 +82,7 @@ python predict.py --image_path path_to_image.jpg --model_type vit
 
 ## 📊 Results
 
-- **CNN Test Accuracy:** _(Fill in your result)_
+- **CNN Test Accuracy:** 98%
 - **ViT Test Accuracy:** _(Fill in your result)_
 
 Training and validation curves are saved and can be visualized using TensorBoard or matplotlib.
